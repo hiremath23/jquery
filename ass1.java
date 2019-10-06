@@ -14,6 +14,7 @@ public class ass1 {
 		driver.findElement(By.cssSelector("a[href=\'https://jqueryui.com/resizable/\']")).click();
 		
 		driver.findElement(By.xpath("//a[text()='Sortable']")).click();
+		driver.close();
 		
 		
 
